@@ -5,7 +5,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest] # Run on multiple OS
+        os: [windows-latest, macos-latest] # Run on multiple OS
 
     runs-on: ${{ matrix.os }} # Dynamic OS selection
 
